@@ -53,7 +53,7 @@ body {
   color: #141414;
 }
 .container {
-  max-height: 87vh;
+  max-height: 110vh;
 }
 /* flexing the Navbar - logo, menu and login section */
 nav {
