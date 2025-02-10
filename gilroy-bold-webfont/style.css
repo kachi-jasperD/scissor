@@ -439,3 +439,210 @@ h1 {
 }
 
 /* End of styling of section-3 */
+
+/* styling of section-4 */
+
+.section-4 .price-perfect {
+  margin-top: 200px;
+}
+
+.section-4 h2 {
+  width: 400px;
+  height: 68px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* End of styling of section-4 */
+
+/* styling of section-5 */
+.section-5 {
+  display: flex;
+  align-items: center;
+  gap: -100px;
+}
+
+.basic,
+.professional,
+.team {
+  border: 2px solid #005ae2;
+  padding: 30px 50px 0px 60px;
+  width: 379px;
+  height: 455px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 0.4px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 4px 8px 0px #0000000d;
+}
+.basic {
+  position: relative;
+  left: 50px;
+}
+.team {
+  position: relative;
+  left: -50px;
+  padding: 30px 50px 0px 100px;
+}
+
+.list li {
+  list-style: none;
+  margin-bottom: 15px;
+  width: 202px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 14px;
+  line-height: 24px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.check-mark {
+  color: #005ae2;
+  font-size: 15px;
+  position: relative;
+  left: -17px;
+  top: 2px;
+}
+
+.check-circles {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #005ae2;
+  padding: 10px;
+  color: #005ae2;
+  position: relative;
+  top: 7px;
+}
+
+.plan {
+  width: 60px;
+  height: 32px;
+  top: 24px;
+  left: 87px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 24px;
+}
+
+.cost {
+  width: 81px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Gilroy-Bold ☞";
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 5px;
+}
+p.info {
+  width: 194px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 24px;
+}
+
+.professional {
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  color: white;
+  width: 410px;
+  height: 627px;
+  z-index: 1;
+}
+
+.professional .check-mark {
+  color: white;
+}
+
+.professional .check-circles {
+  border: 2px solid white;
+}
+
+.professional p.info {
+  width: 239px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.professional .list li {
+  width: 302px;
+}
+.professional .plan {
+  margin-top: 50px;
+}
+
+.team p.info {
+  width: 227px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.team .list li {
+  width: 230px;
+}
+/* End of styling of section-5 */
+
+/* styling of section-6 */
+.section-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  gap: 40px;
+  display: flex;
+  margin: 100px;
+}
+
+.white-background,
+.blue-background {
+  width: 200px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 100px;
+  opacity: 1;
+}
+
+.blue-background {
+  background: #0065fe;
+  color: white;
+  place-content: center;
+}
+
+.white-background {
+  background: #ffffff;
+  color: #0065fe;
+  border: 1px solid #0065fe;
+  place-content: center;
+}
+/* End of styling of section-6 */
