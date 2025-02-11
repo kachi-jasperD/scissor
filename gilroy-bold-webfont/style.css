@@ -566,6 +566,7 @@ p.info {
   width: 410px;
   height: 627px;
   z-index: 1;
+  border: 2px solid #1e3448;
 }
 
 .professional .check-mark {
@@ -646,3 +647,160 @@ p.info {
   place-content: center;
 }
 /* End of styling of section-6 */
+
+/* styling section-7 */
+
+.section-7 form {
+  width: 476px;
+  height: 355px;
+  border-radius: 12px;
+  background: #ffffff;
+  /* background: yellow; */
+}
+.paste-url {
+  width: 392px;
+  height: 55px;
+  border-radius: 12px;
+  gap: 10px;
+  border-width: 1px;
+  /* border: 1px solid #3284ff; */
+}
+.text-dropdown {
+  width: 202px;
+  height: 48px;
+  border-radius: 12px;
+  gap: 10px;
+  /* border-width: 1px;
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  padding-left: 20px; */
+  /* border: 1px solid #3284ff; */
+}
+.text-dropdown {
+  width: 202px;
+  height: 48px;
+  border-radius: 12px;
+  gap: 10px;
+  border-width: 1px;
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+}
+.trim {
+  width: 372px;
+  height: 48px;
+  border-radius: 100px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  background: #005ae2;
+  color: white;
+  border: none;
+}
+.wave-container p {
+  width: 373px;
+  height: 40px;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.wave-container .blue {
+  font-family: "Gilroy-Bold ☞";
+}
+
+.section-7 input::placeholder {
+  width: 91;
+  height: 18;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #3284ff;
+}
+
+.section-7 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave-container div {
+  margin: 20px 50px;
+  width: 392px;
+  height: 55px;
+  border-radius: 12px;
+  /* gap: 10px; */
+  border-width: 1px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+}
+
+.section-7 input {
+  border: none;
+}
+
+.section-7 {
+  background: linear-gradient(to bottom, #16223a, #1e2d4d);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-dropdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10fr 1fr;
+}
+
+.text-dropdown :first-child {
+  border: 1px solid #3284ff;
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+.text-dropdown :last-child {
+  border: 1px solid #3284ff;
+
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+
+.paste-url input {
+  width: 372px;
+  height: 55px;
+  border: 1px solid #3284ff;
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+
+.terms {
+  color: #4991ff;
+  font-family: "Gilroy-Medium ☞";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  width: 373;
+  width: 973;
+  height: 40;
+
+}
+/* End of styling section-7 */
