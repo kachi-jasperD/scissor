@@ -888,9 +888,6 @@ p.info {
   justify-content: center;
   align-items: center;
   gap: 100px;
-  /* place-content: center; */
-  /* place-self: center; */
-  /* place-items: center; */
 }
 
 .section-9 :first-child {
@@ -902,6 +899,7 @@ p.info {
   letter-spacing: 0%;
   text-align: center;
   color: #ffffff;
+  place-content: center;
 }
 .section-9 :last-child {
   font-family: "Gilroy-Regular ☞";
@@ -914,7 +912,11 @@ p.info {
   height: 48px;
   border-radius: 100px;
   gap: 10px;
-  padding: 22px 55px;
+  padding-top: 18px;
   text-align: center;
+}
+
+.section-9 p {
+  place-content: center;
 }
 /* end of styling of section-9 */
