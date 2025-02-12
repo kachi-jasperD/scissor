@@ -42,11 +42,10 @@
 }
 body {
   min-height: 100vh;
-  background: rgb(255, 255, 255);
   background: linear-gradient(
     79deg,
     rgba(255, 255, 255, 0.2315519957983193) 46%,
-    rgba(251, 255, 34, 0.1295912114845938) 99%,
+    rgba(251, 255, 34, 0.054) 99%,
     rgba(255, 255, 255, 1) 100%
   );
   place-items: center;
