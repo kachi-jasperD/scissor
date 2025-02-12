@@ -846,29 +846,75 @@ p.info {
   justify-content: center;
   align-items: left;
   width: 792px;
-  height: 955px;
+  height: 1150px;
   margin-top: 43px;
   gap: 64px;
-  gap: 64px;
+  /* border: 1px solid red; */
 }
 
 .questions {
   width: 744px;
-  height: 32px;
+  height: 50px;
   font-family: "Gilroy-Medium ☞";
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0%;
+  border-bottom: 1px solid #d6d6d6;
+  border-spacing: 50px;
 }
 
 .answer {
   width: 792;
+  height: 50px;
   font-family: "Gilroy-Medium ☞";
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 0%;
-  padding: 0px;
-  margin: 0px;
 }
 
+.long-content {
+  height: 80px;
+}
 /* End of styling section-8 */
+
+/* styling of section-9 */
+.section-9 {
+  width: 1440px;
+  height: 400px;
+  margin-top: 70px;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  /* place-content: center; */
+  /* place-self: center; */
+  /* place-items: center; */
+}
+
+.section-9 :first-child {
+  width: 806px;
+  height: 57px;
+  font-family: "Gilroy-Bold ☞";
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.section-9 :last-child {
+  font-family: "Gilroy-Regular ☞";
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  background: #005ae2;
+  width: 200px;
+  height: 48px;
+  border-radius: 100px;
+  gap: 10px;
+  padding: 22px 55px;
+  text-align: center;
+}
+/* end of styling of section-9 */
