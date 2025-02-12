@@ -102,6 +102,10 @@ p {
   text-decoration-skip-ink: none;
   color: #0065fe;
 }
+.logo img {
+  width: 99px;
+  height: 34px;
+}
 /* End of flexing each individual section in the navbar (the logo) */
 
 /* flexing each individual section in the navbar (the Menu) */
@@ -727,7 +731,6 @@ p.info {
   width: 392px;
   height: 55px;
   border-radius: 12px;
-  /* gap: 10px; */
   border-width: 1px;
   padding-top: 8px;
   padding-right: 12px;
@@ -794,6 +797,7 @@ p.info {
   width: 973;
   height: 40;
 }
+
 /* End of styling section-7 */
 
 /* styling section-8 */
@@ -928,11 +932,6 @@ p.info {
   gap: 100px;
 }
 
-/* .footer-logo {
-    width: 155px;
-    height: 48px;
-    margin-left
-} */
 .footer-menus {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -978,4 +977,12 @@ p.info {
   line-height: 32px;
   letter-spacing: 0%;
 }
+.logo-media .logo img {
+  width: 90px;
+  height: 30px;
+  position: relative;
+  left: 7px;
+  top: 4px;
+}
+
 /* end of styling of section-10 */
